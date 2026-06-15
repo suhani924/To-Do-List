@@ -1,0 +1,60 @@
+<%- include('partials/header') %>
+
+<div class="row justify-content-center">
+
+    <div class="col-md-6">
+
+        <div class="card">
+            <div class="card-body">
+
+                <h3 class="mb-4">Add New Task</h3>
+
+                <form action="/add-task" method="POST">
+
+                    <div class="mb-3">
+                        <label>Task Title</label>
+                        <input
+                            type="text"
+                            name="title"
+                            class="form-control"
+                            required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Description</label>
+                        <textarea
+                            name="description"
+                            class="form-control"
+                            required></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Priority</label>
+
+                        <select
+                            name="priority"
+                            class="form-control">
+
+                            <option>High</option>
+                            <option>Medium</option>
+                            <option>Low</option>
+
+                        </select>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="btn add-btn">
+                        Save Task
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,79 @@
+<%- include('partials/header') %>
+
+<div class="row justify-content-center">
+
+    <div class="col-md-6">
+
+        <div class="card">
+            <div class="card-body">
+
+                <h3 class="mb-4">Edit Task</h3>
+
+                <form action="/update/<%= task.id %>" method="POST">
+
+                    <div class="mb-3">
+                        <label class="form-label">
+                            Task Title
+                        </label>
+
+                        <input
+                            type="text"
+                            name="title"
+                            class="form-control"
+                            value="<%= task.title %>"
+                            required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">
+                            Description
+                        </label>
+
+                        <textarea
+                            name="description"
+                            class="form-control"
+                            required><%= task.description %></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">
+                            Priority
+                        </label>
+
+                        <select
+                            name="priority"
+                            class="form-control">
+
+                            <option <%= task.priority === "High" ? "selected" : "" %>>
+                                High
+                            </option>
+
+                            <option <%= task.priority === "Medium" ? "selected" : "" %>>
+                                Medium
+                            </option>
+
+                            <option <%= task.priority === "Low" ? "selected" : "" %>>
+                                Low
+                            </option>
+
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn add-btn">
+                        Update Task
+                    </button>
+
+                    <a href="/" class="btn btn-secondary">
+                        Back
+                    </a>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<%- include('partials/footer') %>
