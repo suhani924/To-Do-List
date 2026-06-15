@@ -28,10 +28,10 @@ This application allows users to create, update, delete, and manage tasks effici
 * HTML
 * CSS
 * Bootstrap 5
-<img width="1909" height="923" alt="Screenshot 2026-06-16 012138" src="https://github.com/user-attachments/assets/c2c28a04-5543-4c9a-b26b-66cc3edfa01e" />
-<img width="1912" height="933" alt="Screenshot 2026-06-16 011813" src="https://github.com/user-attachments/assets/bcc37fbd-37cd-4f5b-a0ca-86a7f049c766" />
-<img width="1916" height="879" alt="Screenshot 2026-06-16 012040" src="https://github.com/user-attachments/assets/c8903774-f5b0-490e-8618-4e63372b8421" />
-<img width="1919" height="872" alt="Screenshot 2026-06-16 012052" src="https://github.com/user-attachments/assets/0e6650a6-b25d-4bab-9747-8cc33c0efc91" />
+<img width="1909" height="923" alt="Screenshot 2026-06-16 012138" src="https://github.com/user-attachments/assets/c50226b9-20ce-4f2d-aa29-86fdc1bc312d" />
+<img width="1912" height="933" alt="Screenshot 2026-06-16 011813" src="https://github.com/user-attachments/assets/b55f31cf-54ea-4bee-8cd0-a0a494375c11" />
+<img width="1916" height="879" alt="Screenshot 2026-06-16 012040" src="https://github.com/user-attachments/assets/007386e0-d5ab-4d05-bf2a-ddfb7d18bbf2" />
+<img width="1919" height="872" alt="Screenshot 2026-06-16 012052" src="https://github.com/user-attachments/assets/19f29ca7-ea16-4199-847d-0a9fdca26432" />
 
 ---
 
